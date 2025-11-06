@@ -1,0 +1,29 @@
+.box{
+    height:100px;
+    width:300px;
+    background-color:pink;
+    
+    
+    
+    animation: FontAni 3s ease-in 0s infinite normal;
+}
+@keyframes FontAni{
+    from{
+        font-size:20px;
+        background-color:red;
+        width:10px;
+    }
+    to{
+        font-size:50px;
+        background-color:yellow;
+        width:300px;
+    }
+}
+
+@keyframes BoxC{
+    from{
+        background-color:red;
+    } to{
+        background-color:black;
+    }
+}

@@ -1,0 +1,69 @@
+.yeh{
+    height:100px;
+    width:100px;
+    background-color:rgba(225,0,0,1);
+    margin: 0 auto;
+    margin-top:10px;
+    transition: margin-top 2s ease-in 0.2s;
+}
+
+.yeh:hover{
+    margin-top:400px;
+    background-color:black;
+    
+}
+section{
+    margin-top:100px;
+}
+
+div{
+    width:200px;
+    height:50px;
+    text-align:center;
+    background-color:#7aa874;
+    border:2px solid black;
+    margin:10px;
+}
+
+div:nth-of-type(2n){
+    background-color:#f7db6a;
+}
+
+div:nth-of-type(3n){
+    background-color:#ebb02d;
+}
+
+/* transform */
+
+#one{
+    transform:rotate(45deg);
+}
+
+#two{
+    transform:scale(0.5);
+}
+#three{
+    transform:translateX(100px);
+} 
+#four{
+    transform:skew(30deg);
+}
+
+.shadow{
+    width:200px;
+    height:50px;
+    text-align:center;
+    background-color:#7aa874;
+    border:2px solid black;
+    margin:10px;
+
+    box-shadow: 2px 2px 8px black;
+}
+
+.image{
+    width:400px;
+    height:600px;
+    background-color:#7aa87f;
+    background-image:url(akaza.jpeg);
+    background-size:cover;
+}

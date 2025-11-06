@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>level 3</title>
+</head>
+<body>
+    <hr>
+    <p><b><u>TABLES</u></b></p>
+    <table border="black">
+        <caption>Marks</caption>
+        <thead>
+            <tr>
+                <th >Name</th>
+                <th >Marks</th>
+            </tr>
+
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td>Saksham</td>
+                <td>99</td>
+            </tr>
+            <tr>
+                <td>
+                    prakhar
+                </td>
+                <td>99</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <br>
+    <br>
+    <table border="red">
+        <caption>
+            Food menu
+        </caption>
+        <thead>
+            <tr>
+                <th rowspan="2">
+                    Item
+
+                </th>
+                <th colspan="2">Price</th>
+                
+            </tr>
+            <tr>
+                <th>INR</th>
+                <th>USD</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Samosa</td>
+                <td>10</td>
+                <td>
+                    0.2
+                </td>
+            </tr>
+            <tr>
+                <td>Burger</td>
+                <td>120</td>
+                <td>1.5</td>
+            </tr>
+            <tr>
+                <td>Pizza</td>
+                <td>
+                    250
+                </td>
+                <td>3.0</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <p><b><u>Pratice Question</u></b></p>
+    <table border="black">
+        <caption>A test table with merged cells</caption>
+        <tbody>
+            <tr>
+                <td rowspan="2"> </td>
+                <td colspan="2">Average</td>
+                <td rowspan="2">Red eyes</td>
+
+            </tr>
+            <tr>
+                <td>Height</td>
+                <td>Weight</td>
+            </tr>
+            <tr>
+                <td>Males</td>
+                <td>1.9</td>
+                <td>
+                    0.003
+                </td>
+                <td>
+                    40%
+                </td>
+            </tr>
+            <tr>
+                <td>Feales</td>
+                <td>1.7</td>
+                <td>
+                    0.002
+                </td>
+                <td>
+                    43%
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <hr>
+    <br>
+    <p><b><u>FORMS IN HTML</u></b></p>
+    <form action="/action">
+        <div>
+            <label for="username">
+                UserName :
+            </label>
+            <input 
+            type ="text" 
+            id="username" 
+            placeholder="enter username"
+            name="user"
+            >
+        </div>
+    
+        <div>
+            <label for="password">
+                Password :
+            </label>
+            
+            <input 
+            type="password" 
+            id="password" 
+            placeholder="enter password"
+            name="pass"
+            >
+        </div>
+    
+        <div>
+            <label for="age">Age : </label>
+            <input 
+            type="number" 
+            placeholder="Enter age" 
+            id="age"
+            name="age"
+            >
+        </div>
+
+        <div>
+            Choose your Profession
+            <select
+            name="profession"
+            id="profession"
+            >
+            <option value="no">Select option </option>
+            <option value="stu">Student</option>
+            <option value="coop">coopreate empolyee</option>
+            <option value="teacher">teacher</option>
+            <option value="other">other</option>
+            
+
+            </select>
+        </div>
+        <div>
+            <input 
+            type="checkbox"
+            name="age"
+            id="age"
+            
+            >
+            <label for="age">
+                I am 18+
+            </label>
+            
+        </div>
+        <div>
+            
+            <label for="vol">do you like me ??</label>
+            <input type="range" id="vol" name="vol" min="0" max="100" value="75">
+        </div>
+        <div>
+            <input
+            type="radio"
+            name="fruit"
+            id="apple"
+            value="apple"
+            >
+            <label for="apple">APPLE</label>
+
+            <input
+            type="radio"
+            name="fruit"
+            id="mango"
+            value="mango"
+            >
+            <label for="mango">mango</label>
+
+            <input
+            type="radio"
+            name="fruit"
+            id="orange"
+            value="orange"
+            >
+            <label for="orange">orange</label>
+        </div>
+        <br>
+        <label for="feedback">Please provide your valueble Feedback</label>
+        <textarea id="feedback" name="feedback" placeholder="write your feedback" rows="5" cols="20"></textarea>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+    </form>
+    <br>
+    <hr>
+    <br>
+
+    <h2>Practice Question</h2>
+    <form action="/register">
+        <div>
+            <input type="text" placeholder="First name" name="fname">
+            <input type="text" placeholder="Last name" name="lname">
+        </div>
+        <label for="Gender">Please select gender</label>
+        <select id="Gender" name="gen">
+            <option value="m">Male</option>
+            <option value="f">Female</option>
+            <option value="o">Others</option>
+        </select>
+        <div>
+            Do you agree to all terms of service ?
+            <input
+            type="checkbox"
+            name="agree"
+            id="agree"
+            >
+            <label for="agree">
+                Yes,I agree
+            </label>
+
+        </div>
+        <div>
+            <button type="submit">Register</button>
+        </div>
+
+        
+
+
+
+
+
+    </form>
+    
+    
+    
+</body>
+</html>
