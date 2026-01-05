@@ -1,13 +1,130 @@
-.head{
-    text-align:center;
-    font-weight: 400;
-    
-    
-}
-.aa{
-    text-decoration: none;
+:root {
+--accent: #38bdf8;
+--bg: #0f172a;
+--card: #020617;
+--text: #e5e7eb;
 }
 
-.pfp{
-    border-radius:90%;
+* {
+box-sizing: border-box;
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+.name{
+    color:rgb(76,156,224);
+}
+
+.name:hover{
+    transform: scale(1.8);
+    text-shadow: 0 0 20px rgba(56, 189, 248, 0.6);
+}
+
+body {
+margin: 0;
+font-family: 'Poppins', sans-serif;
+background: var(--bg);
+color: var(--text);
+}
+
+/* HERO */
+header {
+min-height: 100vh;
+display: grid;
+place-items: center;
+text-align: center;
+padding: 2rem 1rem;
+}
+
+.hero img {
+width: min(60vw, 220px);
+aspect-ratio: 1 / 1;
+object-fit: cover;
+border-radius: 50%;
+border: 4px solid var(--accent);
+}
+
+.hero h1 {
+font-size: clamp(2rem, 5vw, 3rem);
+margin: 1rem 0 0.5rem;
+}
+
+.hero p {
+font-size: clamp(1rem, 3vw, 1.2rem);
+color: #cbd5f5;
+}
+
+/* SECTIONS */
+section {
+padding: clamp(3rem, 8vw, 5rem) 1rem;
+}
+
+.section-title {
+text-align: center;
+color: var(--accent);
+font-size: clamp(1.6rem, 4vw, 2.2rem);
+margin-bottom: 2.5rem;
+}
+
+/* CARDS */
+.cards {
+max-width: 1100px;
+margin: auto;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+gap: 1.5rem;
+}
+
+.card {
+background: var(--card);
+padding: 1.8rem;
+border-radius: 14px;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+transform: translateY(-6px);
+box-shadow: 0 15px 30px rgba(56,189,248,0.15);
+}
+
+/* FORMS */
+form {
+max-width: 420px;
+margin: auto;
+display: grid;
+gap: 0.9rem;
+}
+
+input, select, button {
+padding: 0.8rem;
+border-radius: 8px;
+border: none;
+font-size: 1rem;
+}
+
+button {
+background: var(--accent);
+font-weight: 600;
+cursor: pointer;
+}
+
+button:hover {
+opacity: 0.9;
+}
+
+/* FOOTER */
+footer {
+background: var(--card);
+padding: 1.5rem;
+text-align: center;
+font-size: 0.9rem;
+}
+
+/* SMALL DEVICES FIXES */
+@media (max-width: 480px) {
+.card {
+    padding: 1.4rem;
+}
 }

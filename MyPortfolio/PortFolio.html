@@ -3,113 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My PortFolio</title>
-    <link rel="stylesheet" href="stylePort.css">
+    <title>Saksham Tripathi | Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylePort.css"/>
+    <script src="script.js"></script>
+
 </head>
+
 <body>
-    <header class="head">
-        <h1 class="aa"><a  href="https://www.linkedin.com/in/saksham-tripathi-7b25b0330/"><b><i>SAKSHAM TRIPATHI</i></b></a></h1>
-        
-        <img class="pfp" src="MyImagePort.jpg" alt ="my img" height="300px" width="400px">
-        <p>An Aspiring <b><u>Web Developer</u></b> and a <b><u>DSA Enthusiast</u></b></p>
 
-    </header>
+<header>
+    <div class="container hero">
+        <img src="MyImagePort.jpg" alt="Saksham Tripathi">
+        <h1>
+            <a href="https://www.linkedin.com/in/saksham-tripathi-7b25b0330/" target="_blank" class="name">
+                Saksham Tripathi
+            </a>
+        </h1>
+        <p>Aspiring Web Developer • DSA Enthusiast • Engineering Student</p>
+    </div>
+</header>
 
-    <h4>want to use youtube i can understand</h4>
-    <form action="https://www.youtube.com/results">
-        <input
-        type="text"
-        placeholder="go and youtube"
-        name="search_query"
-        >
-        <button>search</button>
-    </form>
-    
-    <ol>
-        <hr>
-        <section>
+<section>
+    <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>B.Tech (CSE)</h3>
+                <p>Noida Institute of Engineering & Technology (NIET)</p>
+            </div>
+        </div>
+    </div>
+</section>
 
-        
-            <li>
-                <h2><u>EDUCATION</u></h1>
-                <p>I am pursuing <b>B.Tech</b> From <a href="https://www.niet.co.in/">NIET</a></p>
-
-            </li>
-        </section>
-        <hr>
-        <section>
-
-        
-            <li>
-                <h2><i>SKILLS</i></h2>
+<section>
+    <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="cards">
+            <div class="card">
                 <ul>
-                    <li><h5>C/C++</h5></li>
-                    <li><h5>DSA</h5></li>
-                    
-                    <li><h5>HTML CSS</h5></li>
-                    <li><h5>ENGLISH AND GERMAN</h5></li>
+                    <li>C / C++</li>
+                    <li>Data Structures & Algorithms</li>
+                    <li>HTML & CSS</li>
+                    <li>English & German</li>
                 </ul>
-            </li>
-        </section>
-        <hr>
-        <li>
-            <h2>
-                <u><i>HOBBIES</i></u>
-            </h2>
-            <p>I like <a href="https://en.wikipedia.org/wiki/Cricket"> Cricket</a></p>
-            <p>I LOVE CINEMA</p>
-        </li>
-        <hr>
-        <footer>
-            <li>
-                <h2>
-                    CONTACT
-                </h2>
-                <p><b>MY PHONE NUM IS :</b><u>+91 9336544977</u></p>
-                <p><b>MY EMAIL ID IS : </b><i>shivbhau2108@gmail.com</i></p>
-            </li>
+            </div>
+        </div>
+    </div>
+</section>
 
-        </footer>
+<section>
+    <div class="container">
+        <h2 class="section-title">Hobbies</h2>
+        <div class="cards">
+            <div class="card">
+                <p>🏏 Cricket Enthusiast</p>
+                <p>🎬 Passionate about Cinema</p>
+            </div>
+        </div>
+    </div>
+</section>
 
-
-        <h3>want to see  &#x1F346;  ??? search here</h3>
-        <form action="https://www.google.com/search">
-            <input
-            type="text"
-            placeholder="search in google"
-            name="q"
-            >
-            <button>Search</button>
-        </form>
-        
-
-    </ol>
-    <hr>
-    <p><u><b>Wanna contact</b></u></p>
-    <form action="/contact">
-        Name
-        <input type="text" placeholder="enter your name please">
-        <br>
-        Number
-        <input type="number" placeholder="enter your number please" cols="70">
-
-        <div>
-            <label for="Gender">Please select gender</label>
-            <select id="Gender" name="gen">
-                <option value="m">Male</option>
-                <option value="f">Female</option>
-                <option value="o">Others</option>
+<section>
+    <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <select>
+                <option>Select Gender</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
             </select>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
 
-            
-        </div>
-        <div>
-            <button type="submit">Submit</button>
-        </div>
-    </form>
+<footer>
+    <p>📧 shivbhau2108@gmail.com</p>
+    <p>📞 +91 9336544977</p>
+    <p>© 2025 Saksham Tripathi</p>
+</footer>
 
-    <br>
-    
-    
+
 </body>
 </html>
