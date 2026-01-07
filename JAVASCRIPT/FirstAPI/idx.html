@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API REQUEST</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- CAT FACT -->
+    <div class="cat">
+        <h1 id="catFact">Random cat fact incoming...</h1>
+        <button id="btn1">Show new fact</button>
+    </div>
+
+    <!-- JOKES -->
+    <div class="jokes">
+        <h1 id="joke">GET JOKES</h1>
+        <button id="btn3">Get new joke</button>
+    </div>
+
+    <!-- DOG IMAGE -->
+    <div class="dog">
+        <h1>DOG IMAGE INCOMING</h1>
+        <img id="res" alt="Dog Image">
+        <button id="btn2">New Dog</button>
+    </div>
+
+    <!-- UNIVERSITY SEARCH -->
+    <div class="univer">
+        <h1 id="uni">Universities</h1>
+
+        <div class="search">
+            <input type="text" id="info" placeholder="Enter university name">
+            <button id="Search">Search</button>
+            <button id="btn4">Clear</button>
+        </div>
+
+        <ul id="list"></ul>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.13.2/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

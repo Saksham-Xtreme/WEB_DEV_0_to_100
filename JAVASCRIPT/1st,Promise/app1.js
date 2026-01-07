@@ -51,7 +51,7 @@ function savetoDB(data){
         if(internetSp > 4){
             resolve("Work Done! ");
         } else{
-            failure("Failure!");
+            reject("Failure!");
         }
     });
 
