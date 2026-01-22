@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.post{
+    background-color: white;
+    color: black;
+    height: 300px;
+    width: 300px;
+
+}

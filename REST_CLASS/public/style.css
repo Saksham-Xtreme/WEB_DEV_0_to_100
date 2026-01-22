@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    color: black;
+}
+
+h1{
+    color:aqua;
+}
+
+.post{
+    background-color: white;
+    width: 50%;
+    /* height: 300px; */
+    
+}
+
+.user{
+    font-style: italic;
+}
